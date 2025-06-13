@@ -3,6 +3,9 @@ import HeroSection from "@/components/HeroSection";
 import PricingSection from "@/components/PricingSection";
 import CalculatorSection from "@/components/CalculatorSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
+import AboutSection from "@/components/AboutSection";
+import ContactsSection from "@/components/ContactsSection";
+import Footer from "@/components/Footer";
 import AnimatedBackground from "@/components/AnimatedBackground";
 
 const Index = () => {
@@ -15,7 +18,10 @@ const Index = () => {
         <PricingSection />
         <CalculatorSection />
         <GuaranteeSection />
+        <AboutSection />
+        <ContactsSection />
       </main>
+      <Footer />
     </div>
   );
 };
